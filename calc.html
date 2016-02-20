@@ -1,0 +1,55 @@
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="img/by.svg" alt="" width="100px" height="100px" id="by"/>
+            <input class="country" type="radio" name="country" value="by">BY<Br>
+
+        </div>
+        <div class="col-sm-6">
+            <img src="img/usa.svg" alt="" width="100px" height="100px" id="usa"/>
+            <input class="country" type="radio" name="country" value="usa">PREMIUM USA<Br>
+        </div>
+    </div>
+    <form action="" id="shop">
+        <div class="form-group">
+            <label for="capacity">Объем</label>
+            <select name="capacity" id="capacity">
+                <option value="10">10ml</option>
+                <option value="20">20ml</option>
+                <option value="30">30ml</option>
+                <option value="50">50ml</option>
+                <option value="100">100ml</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="nicotine">Никотин</label>
+            <select name="nicotine" id="nicotine">
+                <option value="3">3mg</option>
+                <option value="6">6mg</option>
+                <option value="8">8mg</option>
+                <option value="12">12mg</option>
+                <option value="24">24mg</option>
+            </select>
+        </div>
+        <div class="form-group" id="country">
+
+        </div>
+
+        <div class="form-group">
+            <h3>Наценка</h3>
+            <input class="pft" type="radio" name="profit" value="1">0%-Себестоимость<Br>
+            <input class="pft" type="radio" name="profit" value="1.5"> 50%<Br>
+            <input class="pft" type="radio" name="profit" value="2"> 100%<Br>
+            <input class="pft" type="radio" name="profit" value="3"> 200%<Br>
+        </div>
+
+    </form>
+    <button id="submit">Расчитать</button>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1 id="total"></h1>
+        </div>
+    </div>
+</div>
